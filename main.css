@@ -1,0 +1,612 @@
+/* custom css start */
+/* E-Traffic */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.eTrafficRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.eTrafficHeader {
+  color: #3C5A8C;
+  text-align: center;
+}
+
+.eDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 270px;
+  background: #3C5A8C;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 20px;
+  margin-right: 100px;
+}
+
+.eLogo {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: -120px;
+}
+
+.logoArticle {
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  padding: 2rem;
+  margin-bottom: 0px;
+}
+
+.eTrafficLeft {
+  width: 50%;
+  text-align: center;
+}
+
+.eTrafficLeft h4 {
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+.eTrafficRight {
+  height: 100vh;
+  background-color: #3C5A8C !important;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.userField {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.formSelect, .formControl {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1px;
+}
+
+.loginButton {
+  width: 80px;
+  height: 38px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+  border-radius: 1px;
+}
+
+/* footer */
+footer hr {
+  margin-top: 2rem;
+  color: #3C5A8C;
+  margin-right: 100px;
+}
+
+.copyRightDetails {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.poweredBy {
+  margin-right: 100px;
+}
+
+/* custom css end */
+@media screen and (max-width: 480px) {
+  .eTrafficRow {
+    flex-direction: column;
+  }
+  .eTrafficLeft {
+    width: 100%;
+  }
+  .eTrafficLeft h4 {
+    margin: 30px 0px 0px 0px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .eDetails {
+    margin-right: 0px;
+    background: none;
+    box-shadow: none;
+    justify-content: center;
+  }
+  .eLogo {
+    margin-left: 0px;
+  }
+  .eDetails p {
+    display: none;
+  }
+  .eTrafficRight {
+    width: 100%;
+    height: 70vh;
+  }
+  .allDeviceFooter {
+    display: none;
+  }
+  .smFooter {
+    padding-bottom: 0.3rem;
+  }
+  .smFooter hr {
+    margin-right: 0px;
+    margin-top: 1rem;
+  }
+  .smFooterDetails {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 481px) {
+  .eTrafficLeft {
+    width: 53%;
+  }
+  .eTrafficLeft h4 {
+    margin: 20px 30px 20px 0px;
+  }
+  .eDetails {
+    margin-right: 30px;
+  }
+  .eDetails p {
+    font-size: 13px;
+    padding: 0px 0px 0px 10px;
+  }
+  .eTrafficRight {
+    height: 121vh;
+  }
+  .allDeviceFooter hr {
+    margin-right: 2rem;
+  }
+  .poweredBy {
+    margin-right: 1rem;
+  }
+  .smFooter {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .eTrafficLeft h4 {
+    margin-right: 40px;
+  }
+  .eDetails {
+    margin-right: 30px;
+  }
+  .allDeviceFooter hr {
+    margin-right: 30px;
+  }
+  .poweredBy {
+    margin-right: 25px !important;
+  }
+  .eTrafficRight {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .eTrafficLeft h4 {
+    margin-right: 100px;
+  }
+  .eDetails {
+    margin-right: 100px;
+  }
+  .eDetails p {
+    padding: 20px;
+  }
+  .allDeviceFooter hr {
+    margin-right: 100px;
+  }
+  .poweredBy {
+    margin-right: 100px;
+  }
+  .eTrafficRight {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .eTrafficLeft h4 {
+    margin-right: 100px;
+  }
+  .eDetails {
+    margin-right: 100px;
+  }
+  .eDetails p {
+    padding: 20px;
+    font-size: 18px;
+  }
+  .allDeviceFooter hr {
+    margin-right: 100px;
+  }
+  .poweredBy {
+    margin-right: 100px !important;
+  }
+  .eTrafficRight {
+    height: 100vh;
+  }
+}
+/* custom css start */
+/* E-Traffic */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.eTrafficRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.eTrafficHeader {
+  color: #3C5A8C;
+  text-align: center;
+}
+
+.eDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 270px;
+  background: #3C5A8C;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 20px;
+  margin-right: 100px;
+}
+
+.eLogo {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: -120px;
+}
+
+.logoArticle {
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  padding: 2rem;
+  margin-bottom: 0px;
+}
+
+.eTrafficLeft {
+  width: 50%;
+  text-align: center;
+}
+
+.eTrafficLeft h4 {
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+.eTrafficRight {
+  height: 100vh;
+  background-color: #3C5A8C !important;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.userField {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.formSelect, .formControl {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1px;
+}
+
+.loginButton {
+  width: 80px;
+  height: 38px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+  border-radius: 1px;
+}
+
+footer hr {
+  margin-top: 2rem;
+  color: #3C5A8C;
+  margin-right: 100px;
+}
+
+.copyRightDetails {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.poweredBy {
+  margin-right: 100px;
+}
+
+/* custom css end */
+@media screen and (max-width: 480px) {
+  .eTrafficRow {
+    flex-direction: column;
+  }
+  .eTrafficLeft {
+    width: 100%;
+  }
+  .eTrafficLeft h4 {
+    margin: 30px 0px 0px 0px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .eDetails {
+    margin-right: 0px;
+    background: none;
+    box-shadow: none;
+    justify-content: center;
+  }
+  .eLogo {
+    margin-left: 0px;
+  }
+  .eDetails p {
+    display: none;
+  }
+  .eTrafficRight {
+    width: 100%;
+    height: 70vh;
+  }
+  .allDeviceFooter {
+    display: none;
+  }
+  .smFooter {
+    padding-bottom: 0.3rem;
+  }
+  .smFooter hr {
+    margin-right: 0px;
+    margin-top: 1rem;
+  }
+  .smFooterDetails {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 481px) {
+  .eTrafficLeft {
+    width: 53%;
+    text-align: start;
+  }
+  .eTrafficLeft h4 {
+    margin: 20px 30px 20px 0px;
+  }
+  .eDetails {
+    margin-right: 30px;
+  }
+  .eDetails p {
+    font-size: 13px;
+    padding: 0px 0px 0px 10px;
+  }
+  .eTrafficRight {
+    height: 121vh;
+  }
+  .allDeviceFooter hr {
+    margin-right: 2rem;
+  }
+  .poweredBy {
+    margin-right: 1rem;
+  }
+  .smFooter {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .eTrafficLeft h4 {
+    margin-right: 40px;
+  }
+  .eDetails {
+    margin-right: 30px;
+  }
+  .allDeviceFooter hr {
+    margin-right: 30px;
+  }
+  .poweredBy {
+    margin-right: 25px !important;
+  }
+  .eTrafficRight {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .eTrafficLeft h4 {
+    margin-right: 100px;
+  }
+  .eDetails {
+    margin-right: 100px;
+  }
+  .eDetails p {
+    padding: 20px;
+  }
+  .allDeviceFooter hr {
+    margin-right: 100px;
+  }
+  .poweredBy {
+    margin-right: 100px;
+  }
+  .eTrafficRight {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .eTrafficLeft h4 {
+    margin-right: 100px;
+  }
+  .eDetails {
+    margin-right: 100px;
+  }
+  .eDetails p {
+    padding: 20px;
+    font-size: 18px;
+  }
+  .allDeviceFooter hr {
+    margin-right: 100px !important;
+  }
+  .poweredBy {
+    margin-right: 100px !important;
+  }
+  .eTrafficRight {
+    height: 100vh;
+  }
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+main {
+  background: #3C5A8C;
+}
+
+.notFound {
+  background-image: url(../../images/phq-400.png);
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 85vh;
+}
+
+.notUserDetails {
+  padding-top: 14rem;
+  text-align: center;
+  color: #fff;
+}
+
+.loginButton {
+  width: 110px;
+  height: 38px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+  border-radius: 1px;
+  border: 1px solid white;
+}
+
+.footerAllDevice {
+  margin-top: 30px;
+}
+
+.footerAll {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 13px;
+}
+
+/* footer */
+footer hr {
+  margin-top: 2rem;
+  color: #3C5A8C;
+}
+
+.copyRightDetails {
+  font-size: 12px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.poweredBy {
+  margin-right: 6rem;
+}
+
+@media screen and (max-width: 480px) {
+  .notFound {
+    height: 80vh;
+    background-image: url(../../images/phq-480.png);
+  }
+  .notUserDetails {
+    margin: 0px 20px 20px 20px;
+  }
+  .notUserDetails > p > br {
+    display: none;
+  }
+  .footerAllDevice {
+    display: none;
+  }
+  .smFooter {
+    padding-bottom: 0.3rem;
+  }
+  .smFooter hr {
+    margin-right: 0px;
+    margin-top: 2.5rem;
+  }
+  .smFooterDetails {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 481px) {
+  .smFooter {
+    padding-bottom: 0.3rem;
+  }
+  .smFooter hr {
+    margin-right: 0px;
+    margin-top: 2.5rem;
+  }
+  .smFooterDetails {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .notFound {
+    height: 80vh;
+  }
+  .smFooter {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .notUserDetails > h1 {
+    font-size: 40px;
+  }
+  .notUserDetails > p {
+    font-size: 18px;
+  }
+  .loginButton {
+    font-size: 18px;
+    width: 110px;
+    height: 50px;
+  }
+  .smFooter {
+    display: none;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .notUserDetails > h1 {
+    font-size: 40px;
+  }
+  .notUserDetails > p {
+    font-size: 18px;
+  }
+  .loginButton {
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+  }
+  .smFooter {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

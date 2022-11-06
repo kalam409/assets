@@ -1,0 +1,237 @@
+/* custom css start */
+/* E-Traffic */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.eTrafficRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.eTrafficHeader {
+  color: #3C5A8C;
+  text-align: center;
+}
+
+.eDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 270px;
+  background: #3C5A8C;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 20px;
+  margin-right: 100px;
+}
+
+.eLogo {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: -120px;
+}
+
+.logoArticle {
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  padding: 2rem;
+  margin-bottom: 0px;
+}
+
+.eTrafficLeft {
+  width: 50%;
+  text-align: center;
+}
+
+.eTrafficLeft h4 {
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+.eTrafficRight {
+  height: 100vh;
+  background-color: #3C5A8C !important;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.userField {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.formSelect, .formControl {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1px;
+}
+
+.loginButton {
+  width: 80px;
+  height: 38px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+  background: #6df711 !important;
+  border-radius: 1px;
+}
+
+.loginButton:hover {
+  background: #50b90a !important;
+  color: #fff;
+}
+
+/* footer */
+footer hr {
+  margin-top: 2rem;
+  color: #3C5A8C;
+  margin-right: 100px;
+}
+
+.copyRightDetails {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.poweredBy {
+  margin-right: 100px;
+}
+
+/* custom css end */
+@media screen and (max-width: 480px) {
+  .eTrafficRow {
+    flex-direction: column;
+  }
+  .eTrafficLeft {
+    width: 100%;
+  }
+  .eTrafficLeft h4 {
+    margin: 30px 0px 0px 0px;
+  }
+  .eDetails {
+    margin-right: 0px;
+    background: none;
+    box-shadow: none;
+    justify-content: center;
+  }
+  .eLogo {
+    margin-left: 0px;
+  }
+  .eDetails p {
+    display: none;
+  }
+  .eTrafficRight {
+    width: 100%;
+    height: 70vh;
+  }
+  .allDeviceFooter {
+    display: none;
+  }
+  .smFooter {
+    padding-bottom: 0.3rem;
+  }
+  .smFooter hr {
+    margin-right: 0px;
+    margin-top: 1rem;
+  }
+  .smFooterDetails {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 481px) {
+  .eTrafficLeft {
+    width: 53%;
+  }
+  .eTrafficLeft h4 {
+    margin: 20px 30px 20px 0px;
+  }
+  .eDetails {
+    margin-right: 30px;
+  }
+  .eDetails p {
+    font-size: 13px;
+    padding: 0px 0px 0px 10px;
+  }
+  .eTrafficRight {
+    height: 121vh;
+  }
+  .allDeviceFooter hr {
+    margin-right: 2rem;
+  }
+  .poweredBy {
+    margin-right: 1rem;
+  }
+  .smFooter {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .eTrafficLeft h4 {
+    margin-right: 40px;
+  }
+  .eDetails {
+    margin-right: 30px;
+  }
+  .allDeviceFooter hr {
+    margin-right: 30px;
+  }
+  .poweredBy {
+    margin-right: 25px !important;
+  }
+  .eTrafficRight {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .eTrafficLeft h4 {
+    margin-right: 100px;
+  }
+  .eDetails {
+    margin-right: 100px;
+  }
+  .eDetails p {
+    padding: 20px;
+  }
+  .allDeviceFooter hr {
+    margin-right: 100px;
+  }
+  .poweredBy {
+    margin-right: 100px;
+  }
+  .eTrafficRight {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .eTrafficLeft h4 {
+    margin-right: 100px;
+  }
+  .eDetails {
+    margin-right: 100px;
+  }
+  .eDetails p {
+    padding: 20px;
+    font-size: 18px;
+  }
+  .allDeviceFooter hr {
+    margin-right: 100px;
+  }
+  .poweredBy {
+    margin-right: 100px !important;
+  }
+  .eTrafficRight {
+    height: 100vh;
+  }
+}/*# sourceMappingURL=user_login.css.map */
